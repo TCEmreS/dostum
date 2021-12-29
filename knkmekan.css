@@ -1,0 +1,205 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background: #f8f5f5;
+}
+a {
+  text-decoration: none;
+  color: unset;
+}
+
+.kapsam {
+  width: 996px;
+  margin: auto;
+  background: #ffffff;
+}
+
+.tr {
+  background-color: #001253;
+  color: #ffff;
+  text-align: center;
+  padding: 55px 0px 55px 0px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 96px;
+  line-height: 112px;
+}
+
+.menu {
+  background-color: #faa500;
+  font-size: 30px;
+  padding: 20px 0px 19px 47px;
+  font-size: 30px;
+  display: flex;
+  font-family: Arial, Helvetica, sans-serif;
+  list-style-type: none;
+}
+
+.sBaslik {
+  margin-left: 47px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-top: 62px;
+  margin-bottom: 20px;
+  color: #001253;
+}
+
+.yazi {
+  width: 873px;
+  margin-left: 47px;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+
+  color: #6c6e73;
+  margin-bottom: 37px;
+}
+
+.kutu {
+  background-color: #c4c4c4;
+  font-size: 30px;
+  width: 171px;
+  height: 171px;
+  margin: 25px;
+}
+
+.kutugrubu {
+  display: flex;
+  flex-wrap: wrap;
+  width: 884px;
+  margin-left: 19px;
+}
+
+.adresBlogu {
+  display: flex;
+  flex-direction: column;
+}
+
+.footerBack {
+  background-color: #485890;
+  padding: 0px;
+  height: 188px;
+}
+
+.footFlex {
+  display: flex;
+  flex-direction: column;
+}
+
+.a1 {
+  margin-bottom: 11px;
+  line-height: 21.8px;
+}
+
+.footerColor {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+}
+
+#footer {
+  list-style-type: none;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding: 35px 29px 0px 47px;
+}
+
+.link {
+  background-color: #001253;
+}
+
+.iletisimBaslik {
+  color: #ffffff;
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  text-align: right;
+  margin-bottom: 13px;
+}
+
+.bilgiBaslik {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+  color: #8f9dce;
+  text-align: right;
+}
+
+.bilgicerik {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  text-align: right;
+
+  color: #8f9dce;
+}
+
+.bilgi {
+  margin-bottom: 13px;
+}
+
+.menuLink {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-right: 51px;
+}
+.button {
+  display: inline-block;
+  padding: 0.75rem 1.25rem;
+  border-radius: 10rem;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1rem;
+  letter-spacing: 0.15rem;
+  transition: all 1s;
+  position: relative;
+  overflow: hidden;
+  z-index: 1;
+}
+.button:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #0cf;
+  border-radius: 10rem;
+  z-index: -2;
+}
+.button:before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0%;
+  height: 100%;
+  background-color: #001253;
+  transition: all 1s;
+  border-radius: 10rem;
+  z-index: -1;
+}
+.button:hover {
+  color: #fff;
+}
+.button:hover:before {
+  width: 100%;
+}
